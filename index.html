@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tesla</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        header {
+            height: 56px;
+            display: flex;
+            align-items: center;
+            gap: 575px;
+            position: fixed;
+            width: 100%;
+        }
+
+        .menu-item {
+            text-decoration: none;
+            color: white;
+            margin-left: 32px;
+        }
+
+        button {
+            height: 40px;
+            width: 264px;
+            border: none;
+            border-radius: 4px;
+            display: flex;
+            text-align: center;
+            justify-content: center;
+        }
+
+        #white-btn {
+            background-color: #f4f4f4;
+        }
+
+        #black-btn {
+            background-color: white;
+            color: white;
+        }
+
+        #Learn {
+            color: black;
+            align-items: center;
+            font-size: 12px;
+            color: white;
+        }
+
+        .section {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            height: 100vh;
+            background-size: cover;
+        }
+
+        #section-1 {
+            background-image: url(Tesla\ eco\ car.jpeg);
+            height: 100vh;
+
+        }
+
+        #section-2 {
+            background-image: url(Tesla\ Model.png);
+            height: 100vh;
+background-size: cover;
+        }
+
+        #btn-white {
+            background: rgba(23, 26, 32, 0.65);
+            backdrop-filter: blur(4px);
+            color: #FFFFFF;
+            align-items: center;
+        }
+
+        #btn-black {
+            background: rgba(244, 244, 244, 0.8);
+            backdrop-filter: blur(4px);
+            color: black;
+            align-items: center;
+        }
+
+        .desc {
+            font: montserrat;
+            margin-top: 128px;
+            width: 164px;
+            height: 48px;
+            font-size: 40px;
+            font-weight: 500;
+            color: white;
+        }
+
+        .desc h1 {
+            margin-top: 128px;
+            width: 164px;
+            height: 48px;
+            font-size: 40px;
+            font-weight: 500;
+            color: white;
+        }
+        desc h6 {
+            width: 135px;
+            height: 20px;
+            font-size: 20px;
+            font-weight: 500;
+            color: white;
+        }
+        desc p {
+            width: 236px;
+            height: 48px;
+            font-size: 12px;
+            font-weight: 500;
+            color: white;
+        }
+
+        .content {
+            display: flex;
+            flex-direction: column;
+            gap: 32px;
+            color: white
+        }
+
+        .btn-container {
+            display: flex;
+            gap: 24px;
+        }
+    </style>
+    <title>Tesla clone</title>
+</head>
+
+<body>
+    <header>
+        <img src="./Site Logo.png" alt="Tesla logo" id="logo" />
+        <span id="menus">
+            <a class="menu-item" href="#section-1"> Vehicles </a>
+            <a class="menu-item" href="#section-2"> Energy </a>
+            <a class="menu-item" href="#section-3"> Charging </a>
+            <a class="menu-item" href="section-4"> Discover </a>
+            <a class="menu-item" href="section-5"> Shop </a>
+        </span>
+    </header>
+    <section id="section-1" class="section">
+        <div class="desc">
+            <h1>Model Y</h1>
+            <h6>From $31,890*</h6>
+            <p>After Federal Tax Credit & Est. Gas Savings</p>
+        </div>
+        <div class="content">
+            <div class="btn-container">
+                <button id="btn-black"> Shop available </button>
+                <button id="btn-white"> Demo drive </button>
+            </div>
+            <span>
+                Price before incentives and savings is $42,990, excluding taxes and fees. Subject to change.
+                <br>
+                <a> learn about est. gas savings. </a>
+    </section>
+
+</body>
+
+<body>
+    <section id="section-2" class="section-2">
+        <h2>Brand New Model 3</h2>
+        <h6>From $31,890*</h6>
+        <p>After Federal Tax Credit & Est. Gas Savings</p>
+        </div>
+        <div class="content">
+            <div class="btn-container">
+                <button id="btn-black"> Shop available </button>
+                <button id="btn-white"> Demo drive </button>
+            </div>
+            <span>
+                Price before incentives and savings is $42,990, excluding taxes and fees. Subject to change.
+                <br>
+                <a> learn about est. gas savings. </a>
+            </span>
+        </div>
+    </section>
+</body>
+</html>
